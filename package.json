@@ -1,7 +1,7 @@
 {
-  "name": "@simpiancom/react-native-leaflet-view",
-  "version": "0.2.5",
-  "description": "A LeafletView component using WebView and Leaflet map for React Native applications",
+  "name": "@ksundeen/react-native-leaflet-view",
+  "version": "0.0.1",
+  "description": "Forked from 0.2.5 version of @simpiancom/react-native-leaflet-view. A LeafletView component using WebView and Leaflet map for React Native applications",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -49,12 +49,12 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/config-conventional": "^18.6.0",
     "@react-native-community/eslint-config": "^3.2.0",
     "@release-it/conventional-changelog": "^8.0.1",
     "@types/jest": "^29.5.11",
-    "@types/leaflet": "^1.9.8",
+    "@types/leaflet": "^1.9.12",
     "@types/react": "^18.2.48",
     "@types/react-leaflet": "^3.0.0",
     "@types/react-native": "0.73.0",
@@ -67,7 +67,7 @@
     "leaflet": "^1.9.4",
     "pod-install": "^0.2.0",
     "prettier": "^3.2.4",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "react-native": "0.73.2",
     "react-native-builder-bob": "^0.23.2",
@@ -76,8 +76,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react-native": "0.73.2"
   },
   "jest": {
     "preset": "react-native",
